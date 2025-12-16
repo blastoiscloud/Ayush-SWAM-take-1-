@@ -12,7 +12,7 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 sock.bind((UDP_IP, UDP_PORT))
 
 OFFSET_BACK = -5.0
-OFFSET_RIGHT = 0.0
+OFFSET_RIGHT = 3.0
 
 def offset_gps(lat, lon, yaw, x, y):
     R = 6378137.0
